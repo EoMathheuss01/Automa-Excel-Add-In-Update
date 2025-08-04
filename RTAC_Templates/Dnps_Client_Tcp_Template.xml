@@ -1,0 +1,2158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <Device>
+    <ExportSource>
+      <Schema>37</Schema>
+      <DeviceMOT>3530</DeviceMOT>
+    </ExportSource>
+    <Name>Other_1</Name>
+    <Manufacturer>Any</Manufacturer>
+    <Model>Other</Model>
+    <Connection>
+      <Protocol>DNPClient</Protocol>
+      <ConnectionType>Ethernet</ConnectionType>
+      <SettingPages>
+        <SettingPage>
+          <Name>Settings</Name>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Client DNP Address</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Server DNP Address</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>1</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Integrity Poll Period</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>60000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Class 1,2,3 Polling Period</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>5000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Poll Timeout</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>7000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Number of Poll Retries</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>1</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Transport Protocol</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>TCP</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Client IP Port</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>20000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Client UDP Broadcast Port</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>20000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Server IP Address</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Server IP Port</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>20000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>UTC Offset</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Enabled</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Output Control Type</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Select Before Operate</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Analog Event Buffer Size</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>300</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Binary Event Buffer Size</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>1000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Double Bit Event Buffer Size</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>1000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Counter Event Buffer Size</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>300</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Maximum Binary Operations</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Maximum Analog Operations</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Default Analog Output Variation</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>2</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Automatic Event Poll Delay</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Enable Class1 Unsolicited</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Enable Class2 Unsolicited</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Enable Class3 Unsolicited</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Freeze Counter Request Type</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Immediate Freeze</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Freeze Counter Request Time 1</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>OFF</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Freeze Counter Request Time 2</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>OFF</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Freeze Counter Request Time 3</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>OFF</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Freeze Counter Request Time 4</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>OFF</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Slow Poll Mode Multiplier</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>5</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Maximum Application Layer Fragment Size (Transmitted)</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>249</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Link Status Inactive Period / Heartbeat</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>120</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Link Status Timeout</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Automatically Respond to IIN Class 1</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Automatically Respond to IIN Class 2</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Automatically Respond to IIN Class 3</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Automatically Respond to IIN Need Time</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Automatically Respond to IIN Restart</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Disable Unsolicited on Startup</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>IP End Point Type</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>Dual End Point</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Leap Seconds Known</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Clock Fail</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Clock Not Synchronized</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Time Accuracy</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>unspecified</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST System Settings</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Offset</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>60</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Start Week-of-Month</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Second</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Start Day-of-Week</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Sunday</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Start Month</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>March</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Start Time</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>02:00</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Stop Week-of-Month</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>First</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Stop Day-of-Week</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Sunday</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Stop Month</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>November</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Stop Time</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>02:00</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+        </SettingPage>
+        <SettingPage>
+          <Name>Binary Inputs</Name>
+        </SettingPage>
+        <SettingPage>
+          <Name>Double Bit Inputs</Name>
+        </SettingPage>
+        <SettingPage>
+          <Name>Binary Outputs</Name>
+        </SettingPage>
+        <SettingPage>
+          <Name>Counters</Name>
+        </SettingPage>
+        <SettingPage>
+          <Name>Analog Inputs</Name>
+        </SettingPage>
+        <SettingPage>
+          <Name>Analog Outputs</Name>
+        </SettingPage>
+        <SettingPage>
+          <Name>Datasets</Name>
+        </SettingPage>
+        <SettingPage>
+          <Name>POU Pin Settings</Name>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Auto_Respond_to_IIN_1_1_Class_1</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Auto_Respond_to_IIN_1_2_Class_2</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Auto_Respond_to_IIN_1_3_Class_3</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Auto_Respond_to_IIN_1_4_Need_Time</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Auto_Respond_to_IIN_1_7_Restart</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Buffer_Overflow</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Class_1_Unsolicited_Enabled</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Class_2_Unsolicited_Enabled</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Class_3_Unsolicited_Enabled</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Control_Response_Code_ALREADY_ACTIVE</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Control_Response_Code_AUTOMATION_INHIBIT</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Control_Response_Code_FORMAT_ERROR</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Control_Response_Code_HARDWARE_ERROR</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Control_Response_Code_LOCAL</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Control_Response_Code_NO_SELECT</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Control_Response_Code_NOT_AUTHORIZED</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Control_Response_Code_NOT_SUPPORTED</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Control_Response_Code_OUT_OF_RANGE</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Control_Response_Code_PROCESSING_LIMITED</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Control_Response_Code_TIMEOUT</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Control_Response_Code_TOO_MANY_OBJECTS</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Control_Response_Code_UNDEFINED</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Controls_Disabled</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Data_Link_Timeout_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Direct_Transparent_Connection</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Disable_Controls</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Disable_Tag_Updates</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>EN</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Enable_Class_1_Unsolicited</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Enable_Class_2_Unsolicited</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Enable_Class_3_Unsolicited</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>ENO</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>IIN_1_1_Class_1</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>IIN_1_2_Class_2</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>IIN_1_3_Class_3</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>IIN_1_4_Need_Time</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>IIN_1_5_Local</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>IIN_1_6_Device_Trouble</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>IIN_1_7_Restart</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>IIN_2_3_Buffer_Overflow</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Incoming_Event_Buffer_Empty</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Invalid_Function_Block_Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Issue_Time_Sync</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Issue_Time_Sync_Period</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>TIME</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>T#120M</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Failure</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Failure_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Received_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Sent_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Success_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Offline</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Poll_Events_Obj_60_Cls_123</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Poll_Events_Obj_60_Cls_123_DN</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Poll_Events_Obj_60_Cls_123_Period</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>TIME</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>T#5000MS</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Poll_Integrity_Obj_60_Cls_1230</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Poll_Integrity_Obj_60_Cls_1230_DN</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Poll_Integrity_Obj_60_Cls_1230_Period</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>TIME</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>T#60000MS</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Reset_Statistics</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Response_Timeout_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Set_ClockFail</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Set_ClockNotSynchronized</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Slow_Poll_Mode_Enabled</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+        </SettingPage>
+      </SettingPages>
+      <CustomRequests />
+    </Connection>
+  </Device>
+</RTACModule>

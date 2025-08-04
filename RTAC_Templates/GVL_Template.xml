@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <GVL>
+    <ExportSource>
+      <Schema>37</Schema>
+      <DeviceMOT>3530</DeviceMOT>
+    </ExportSource>
+    <Name>GVL1</Name>
+    <Content><![CDATA[VAR_GLOBAL
+END_VAR
+]]></Content>
+  </GVL>
+</RTACModule>

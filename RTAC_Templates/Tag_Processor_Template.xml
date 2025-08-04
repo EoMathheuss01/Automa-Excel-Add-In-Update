@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <TagProcessor>
+    <ExportSource>
+      <Schema>37</Schema>
+      <DeviceMOT>3530</DeviceMOT>
+    </ExportSource>
+    <SettingPages>
+      <SettingPage>
+        <Name>Settings</Name>
+      </SettingPage>
+    </SettingPages>
+  </TagProcessor>
+</RTACModule>

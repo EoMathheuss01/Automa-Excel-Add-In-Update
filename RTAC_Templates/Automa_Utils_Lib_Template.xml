@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <UserLibrary>
+    <ExportSource>
+      <Schema>37</Schema>
+      <DeviceMOT>3530</DeviceMOT>
+    </ExportSource>
+    <Name>Automa Utils</Name>
+    <Company>Automa</Company>
+    <Title>Automa Utils</Title>
+    <Version>0.0.0.1</Version>
+  </UserLibrary>
+</RTACModule>

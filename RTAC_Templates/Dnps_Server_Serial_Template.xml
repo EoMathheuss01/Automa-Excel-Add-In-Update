@@ -1,0 +1,2246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <Device>
+    <ExportSource>
+      <Schema>37</Schema>
+      <DeviceMOT>3530</DeviceMOT>
+    </ExportSource>
+    <Name>Other_4</Name>
+    <Manufacturer>Any</Manufacturer>
+    <Model>Other</Model>
+    <Connection>
+      <Protocol>DNPServer</Protocol>
+      <ConnectionType>Serial</ConnectionType>
+      <SettingPages>
+        <SettingPage>
+          <Name>Settings</Name>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Server DNP Address</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>1</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Client DNP Address</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Serial Communications Port</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Com_04</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Communications Offline Timer</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>10000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Serial Communications Port Type</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>EIA232</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Baud Rate</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>19200</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Data Bits</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>8</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Parity Bit</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>None</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Stop Bit</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>1</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Enable Port Auxiliary Power</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Full Duplex</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Allow Unsolicited Messages</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Unsolicited Messaging Retries</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>3</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>UTC Offset</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Enabled</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Unsolicited Message Offline Timeout</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>60</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Enable Unsolicited Messaging At Power Up</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Delay in Time Sync Request</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>120</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Application Confirmation Timeout</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>5</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>SBO Control Timeout</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>4000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Allow Read Between Control Select and Operate</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Event Queue Transmit Trigger Size</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>20</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Event Queue Transmit Max Age</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Analog Event Buffer Size</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>300</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Analog Event Buffer Type</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Most Recent</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Binary Event Buffer Size</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>1000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Binary Event Buffer Type</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Double Bit Event Buffer Size</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>1000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Double Bit Event Buffer Type</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Counter Event Buffer Size</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>300</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Counter Event Buffer Type</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Most Recent</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Frozen Counter Event Buffer Size</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>300</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Frozen Counter Event Buffer Type</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Most Recent</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Counter Class 0 Report Type</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Running Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Accept Client Time Sync</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Local Freeze</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Data Link Timeout</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Data Link Retries</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Generate Event On Quality Change</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>RTS Control</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Switched</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>RTS Preamble</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>RTS Postamble</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Transmit Minimum Delay</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Transmit Maximum Delay</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Minimum Inter-Frame Delay</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Modem Connected</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Modem Carrier Detect</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>CTS</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Modem Startup String</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value><![CDATA[E0X0&D0S0=4]]></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Phone Number 1</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Phone Number 2</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Phone 1 Retry Attempts</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>5</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Phone 2 Retry Attempts</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>5</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Time to Attempt Dial</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>60</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Time Between Dial-Out Attempts</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>120</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Minutes to Port Timeout</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>15</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST System Settings</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Offset</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>60</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Start Week-of-Month</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Second</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Start Day-of-Week</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Sunday</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Start Month</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>March</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Start Time</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>02:00</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Stop Week-of-Month</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>First</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Stop Day-of-Week</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Sunday</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Stop Month</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>November</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>DST Stop Time</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>02:00</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Failover Type</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>None</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Failover Serial Port</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Failover Serial Port Baud Rate</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Failover IP Addresses</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Failover IP Port</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Failover Serial Tunneling Mode</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Event Synch IP Address</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Event Synch IP Port</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Map Name</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>None</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Enable Authentication</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Association Id</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>1</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>MAC Algorithm</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>SHA256_16_Octet</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Disallow SHA1</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Aggressive Mode Support</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Send Aggressive Response</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Send Aggressive Unsolicited</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Authority Certification Key</Value>
+            </Setting>
+            <Setting enabled="false" encrypted="true">
+              <Column>Value</Column>
+              <Value>wcBMA42w9UueV92GAQf+KqXIGOIIbZAnuVUyzn5BVBplK01BeXSLoXZ2iwpmxcfJBnqmf2/+HYSPYnNHsLvzxXjxUHr7Oeh6pcxgLoGJd9aC/x3yqHFnUhIl0ZAe+GiID+HrOPi6COd+yES8QwoDx1vLLKSyzM55WnRgd/eAqa+wNZ943+NPb6CHjW5szgsqzqYYDOHBzuEglh1Ow0tBZmfzSsjeUXBhkOwVy5MojOBPbqr2voYE1SV/Fp9KhzJieESTHMsdu0raFuOac0qfuxHDh5OAw+MXr9mgeCwREDX943ZEPrTvMXQdqExit2IMpwbWvGEzBea/cvdHX16zzAGA5apqYHGHGKSMSxxN9tIxARrizFp11McWnbYRSIg43R2aD4upiIOFyvdceU8niHO41lAUuPU8UD3UDIxQT/+FwQ==</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Authentication Reply Timeout</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>2000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Authentication Timeout Count</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>1</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Challenge Data Length</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>4</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Session Key Change Interval</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>108000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Max Authentication Count</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>2000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Maximum Session Key Status Count</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>5</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Max Authentication Failures</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>5</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Max Reply Timeout</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>3</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Max Authentication Rekeys</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>3</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Max Error Messages Sent</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>2</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Confirm</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Read</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Write</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Select</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Operate</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Direct Operate</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Direct Operate without Ack</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Freeze</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Freeze without Response</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Freeze and Clear</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Freeze and Clear without Response</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Cold Restart</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Warm Restart</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Enable Unsolicited</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Disable Unsolicited</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Assign Class</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Delay Measure</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Record Current Time</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+        </SettingPage>
+        <SettingPage>
+          <Name>POU Pin Settings</Name>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Absolute_Time_Obj_50_Var_4_Index_0</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>timeStamp_t</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Absolute_Time_Obj_50_Var_4_Index_1</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>timeStamp_t</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Accept_Client_Time_Sync_Obj_50</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Allow_Client_Control_Of_Unsolicited_Messaging_Fcn_20_21</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Application_Confirmation_Timeout_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Communications_Offline_Timer</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>TIME</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>T#10000MS</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Data_Link_Timeout_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Direct_Transparent_Connection</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Disable_Controls</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Disable_Tag_Updates</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>EN</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>ENO</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Force_Buffer_Overflow_IIN_Bit</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Force_Device_Trouble_IIN_Bit</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Freeze</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Interval_Count_Obj_50_Var_4_Index_0</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Interval_Count_Obj_50_Var_4_Index_1</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Interval_Units_Obj_50_Var_4_Index_0</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>intvlUnits_t</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>intvl_disabled</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Interval_Units_Obj_50_Var_4_Index_1</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>intvlUnits_t</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>intvl_disabled</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Invalid_Function_Block_Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Failure</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Failure_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Received_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Sent_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Success_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Offline</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Request_Time_Sync_IIN_1_4_Need_Time</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Request_Time_Sync_IIN_1_4_Need_Time_Period</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>TIME</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>T#120M</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Reset_Statistics</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Stop_Unsolicited_Messages</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Unsolicited_Messaging_Currently_Enabled</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+        </SettingPage>
+      </SettingPages>
+    </Connection>
+  </Device>
+</RTACModule>

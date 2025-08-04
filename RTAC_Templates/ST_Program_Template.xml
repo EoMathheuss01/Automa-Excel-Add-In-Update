@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <POU>
+    <ExportSource>
+      <Schema>37</Schema>
+      <DeviceMOT>3530</DeviceMOT>
+    </ExportSource>
+    <Name>Program1</Name>
+    <POUKind>Program</POUKind>
+    <Content>
+      <Interface><![CDATA[PROGRAM Program1
+VAR
+END_VAR
+]]></Interface>
+      <Implementation><![CDATA[]]></Implementation>
+    </Content>
+  </POU>
+</RTACModule>

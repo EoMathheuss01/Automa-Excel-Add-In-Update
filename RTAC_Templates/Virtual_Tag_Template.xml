@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <TagList>
+    <ExportSource>
+      <Schema>37</Schema>
+      <DeviceMOT>3530</DeviceMOT>
+    </ExportSource>
+    <Name>VirtualTagList1</Name>
+    <TagListType>Virtual</TagListType>
+    <SettingPages>
+      <SettingPage>
+        <Name>Inputs</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Standard Types</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Integer Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Unsigned Integer Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Analog Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>DNP Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>I/O Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>LED Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>MODBUS Coil Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Mirrored Bits Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Remote Bit Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Breaker Bit Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Double Point Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Single Point Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>IEC60870 Double Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>IEC60870 Single Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Binary Controlled Step Position Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Integer Controlled Step Position Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Binary Controlled Analog Process Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Controllable Enumerated Status</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Binary Counter Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Long Binary Counter Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>String Controls</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Setpoint Controls</Name>
+      </SettingPage>
+    </SettingPages>
+  </TagList>
+</RTACModule>

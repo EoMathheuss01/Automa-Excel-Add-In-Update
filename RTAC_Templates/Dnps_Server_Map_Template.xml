@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <TagList>
+    <ExportSource>
+      <Schema>37</Schema>
+      <DeviceMOT>3530</DeviceMOT>
+    </ExportSource>
+    <Name>DNPServerSharedMap1</Name>
+    <TagListType>DNP</TagListType>
+    <SettingPages>
+      <SettingPage>
+        <Name>Binary Inputs</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Double Bit Inputs</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Binary Outputs</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Counters</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Analog Inputs</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Analog Outputs</Name>
+      </SettingPage>
+      <SettingPage>
+        <Name>Datasets</Name>
+      </SettingPage>
+    </SettingPages>
+  </TagList>
+</RTACModule>
