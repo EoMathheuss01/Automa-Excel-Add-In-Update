@@ -1,9 +1,9 @@
 {
-    "version":  "2.0.0.43",
+    "version":  "2.0.0.47",
     "channel":  "develop",
-    "published_at_utc":  "2026-04-23T15:33:30.0667481Z",
-    "zip_url":  "https://raw.githubusercontent.com/EoMathheuss01/Automa-Excel-Add-In-Update/develop/packages/2.0.0.43/Automalogica-Excel-Add-In-v2.0.0.43-local.zip",
+    "published_at_utc":  "2026-04-23T17:55:29.5441716Z",
+    "zip_url":  "https://raw.githubusercontent.com/EoMathheuss01/Automa-Excel-Add-In-Update/develop/packages/2.0.0.47/Automalogica-Excel-Add-In-v2.0.0.47-local.zip",
     "msi_url":  "",
-    "setup_url":  "https://raw.githubusercontent.com/EoMathheuss01/Automa-Excel-Add-In-Update/develop/packages/2.0.0.43/Automalogica-Excel-Add-In-setup-v2.0.0.43.exe",
-    "release_notes_url":  "https://github.com/EoMathheuss01/Automa-Excel-Add-In-Update/tree/develop/packages/2.0.0.43"
+    "setup_url":  "https://raw.githubusercontent.com/EoMathheuss01/Automa-Excel-Add-In-Update/develop/packages/2.0.0.47/Automalogica-Excel-Add-In-setup-v2.0.0.47.exe",
+    "release_notes_url":  "https://github.com/EoMathheuss01/Automa-Excel-Add-In-Update/tree/develop/packages/2.0.0.47"
 }
